@@ -1,0 +1,302 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About me",
+    "work": "Work Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Hi, I'm Elena!",
+    "subtitle": "Telecommunications Engineer specialized in\nTelematics and Machine Learning",
+    "text": "In this web app I have created, you can explore my profile, skills, and experience."
+  },
+  "timeline": {
+    "title": "My Journey",
+    "subtitle": "This is a timeline of my education and professional experience.",
+    "bachelor": {
+      "date": "2018-22",
+      "text": "Bachelor's Degree in Telecommunication Technologies and Services Engineering",
+      "start": 0,
+      "end": 2.6,
+      "layer": 0
+    },
+    "internship": {
+      "date": "2022",
+      "text": "Support Internship for the Communications Department",
+      "start": 2,
+      "end": 2.6,
+      "layer": 1
+    },
+    "master": {
+      "date": "2022-24",
+      "text": "Master's Degree in Telecommunication Engineering",
+      "start": 2.8,
+      "end": 4.8,
+      "layer": 0
+    },
+    "mobility": {
+      "date": "2023-24",
+      "text": "Erasmus Exchange Program in Warsaw",
+      "start": 3.8,
+      "end": 4.8,
+      "layer": 1
+    },
+    "work": {
+      "date": "2025-Present",
+      "text": "Full Stack Engineer for Command and Control Systems",
+      "start": 5,
+      "end": 7,
+      "layer": 0
+    }
+  },
+  "about": {
+    "profile": {
+      "title": "Profile",
+      "text1": "I consider myself a responsible, perseverant, and positive person with a strong desire to learn",
+      "text2": "I have good analytical skills and critical thinking, which allow me to solve complex problems and provide clear and effective solutions",
+      "text3": "My experience working in multidisciplinary teams has strengthened my communication, leadership, and teamwork skills",
+      "text4": "My proactivity and resilience enable me to adapt well to changes and challenges, as well as to demanding environments"
+
+    },
+    "summary": {
+      "title": "Competencias y Experiencia Personal",
+      "text": "..."
+    },
+    "international": {
+      "title": "International Experience",
+      "points": [
+        "1-year stay in Warsaw (Poland) (2023-24)",
+        "1-month stay in West Hartford (Connecticut, USA) (2015)"
+      ]
+    },
+    "volunteering": {
+      "title": "Volunteering",
+      "points": [
+        "6 years of volunteering as a youth instructor at the Krecer Association in Vallecas, Madrid (2016-22)",
+        "1 year of volunteering at the Niño Jesús Hospital in Madrid (2012-13)"
+      ]
+    },
+    "motivation": {
+      "title": "Motivation",
+      "text": "My objective is to apply new technologies to create solutions with a positive impact on people. From a technical perspective, I aim to build a broad skill set by exploring different areas within software and AI."
+    },
+    "more-btn": {
+      "title": "View more",
+      "text": "..."
+    }
+  },
+  "work": {
+    "gmv": {
+      "title": "Full Stack Engineer for Command and Control Systems",
+      "date": "(Feb 2025 - Present)",
+      "resume": "Frontend and Backend development, Databases, CI/CD, Application Deployment, Testing.",
+      "points": [
+        "<strong>Frontend</strong> development with Angular, TypeScript, HTML, and CSS, implementing new features, fixing bugs, and integrating authentication systems with Keycloak",
+        "<strong>Backend</strong> and <strong>database</strong> development with Java, SQL, and PL/SQL, resolving issues and optimizing processes",
+        "Configuration and management of code quality and continuous integration tools (<strong>CI/CD</strong>), including SonarQube and Jenkins",
+        "<strong>Deployment</strong> and <strong>applications management</strong> on Oracle and Tomcat server environments, with support for development <strong>containers</strong> (DevContainers, Docker)",
+        "Maven <strong>project management</strong>, <strong>unit testing</strong>, and technical improvements, ensuring software quality, maintainability, and performance"
+      ]
+    },
+    "satec": {
+      "title": "Support Internship for the Communications Department",
+      "date": "(Feb 2022 - June 2022)",
+      "resume": "Network Operations, Network Device Administration, Incident Resolution.",
+      "points": [
+        "Network management and operation",
+        "Administration and configuration of CISCO and ARUBA devices",
+        "Incident resolution and service request handling"
+      ]
+    }
+  },
+  "university": {
+    "title": "University Studies",
+    "master": {
+      "title": "Master's Degree in Telecommunication Engineering",
+      "date": "(2022-2024)",
+      "points": [
+        "<strong>2nd year Mobility</strong> at Warsaw University of Technology (WUT)",
+        "Specialization in <strong>Telematics</strong> and <strong>Machine Learning</strong>",
+        "<strong>Final Project</strong>: \"Anomaly Detection using Machine Learning on Smartwatch Data\""
+      ]
+    },
+    "bachelor": {
+      "title": "Bachelor's Degree in Telecommunication Technologies and Services Engineering",
+      "date": "(2018-2022)",
+      "points": [
+        "Specialization in <strong>Telematics</strong> (Networks, Cloud and Software for communications)",
+        "<strong>Final Project</strong>: \"Development of a Cyberbullying Detection System on Social Media\""
+      ]
+    },
+    "study-areas": {
+      "title": "Background in:",
+      "area1": {
+        "title": "Networking & Communication Architecture",
+        "points": [
+          "Network architecture: OSI, TCP/IP, protocols (HTTP, DNS)",
+          "Network technologies: routing, switching, VLANs",
+          "Network design and communication infrastructure dimensioning",
+          "Performance and optimization: Quality of Service (QoS)"
+        ]
+      },
+      "area2": {
+        "title": "Distributed Systems, Cloud & Services",
+        "points": [
+          "Design of distributed systems and telematic services",
+          "Client-server architectures and service-oriented systems",
+          "Scalability, concurrency and high availability",
+          "Fundamentals of cloud computing, virtualization and deployment (containers and orchestration)"
+        ]
+      },
+      "area3": {
+        "title": "Systems & Software Engineering",
+        "points": [
+          "Operating systems: concurrency, processes, memory",
+          "Software development and application architecture design",
+          "Systems integration (software + network + infrastructure)"
+        ]
+      },
+      "area4": {
+        "title": "Data & IoT",
+        "points": [
+          "Machine Learning, Data Mining and pattern recognition",
+          "Information processing (image and speech)",
+          "IoT systems and hardware-software integration (edge computing)"
+        ]
+      },
+      "area5": {
+        "title": "Core Engineering & Foundations",
+        "points": [
+          "Understanding of telecommunication systems and signal processing",
+          "Fundamentals of cybersecurity in networks and systems",
+          "Knowledge of electronic systems and circuit fundamentals",
+          "Project management and teamwork",
+          "Fundamentals of business, business models and technological viability"
+        ]
+      }
+    }
+  },
+  "courses": {
+    "title": "Courses",
+    "huawei1": {
+      "title": "AI Basics: Overview of AI",
+      "date": "2024"
+    },
+    "huawei2": {
+      "title": "5G Basics: What It's All About",
+      "date": "2024"
+    },
+    "huawei3": {
+      "title": "Overview of IoT Technologies",
+      "date": "2024"
+    },
+    "miriadax": {
+      "title": "Frontend Development with HTML, CSS and JavaScript",
+      "date": "2021"
+    },
+    "coursera": {
+      "title": "Cybersecurity and the Internet of Things",
+      "date": "2021"
+    },
+    "upm1": {
+      "title": "Cybersecurity",
+      "date": "2021"
+    },
+    "upm2": {
+      "title": "Linux",
+      "date": "2021"
+    }
+  },
+  "skills": {
+    "technical": {
+      "title": "Technical Skills",
+      "groups": [
+        "Software Development",
+        "Web & Application Development",
+        "Machine Learning & Data Analysis",
+        "DevOps & Development Tools",
+        "Scientific Computing & Engineering"
+      ],
+      "group1": [
+        "Java",
+        "Python",
+        "C",
+        "C++",
+        "JavaScript",
+        "TypeScript",
+        "SQL",
+        "Swift"
+      ],
+      "group2": [        
+        "HTML",
+        "CSS",
+        "Angular",
+        "React", 
+        "React Native",
+        "Redux",
+        "Node.js",
+        "Node-RED"
+      ],
+      "group3" : [
+        "Scikit-learn",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "R"
+      ], 
+      "group4": [
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "SonarQube",
+        "Linux",
+        "Git",
+        "SVN"
+      ],
+      "group5": [
+        "Matlab",
+        "Octave",
+        "ArcGIS",
+        "VHDL",
+        "LabVIEW",
+        "Cisco IOS"
+      ]
+    },
+    "soft": {
+      "title": "Soft Skills",
+      "skills": [ 
+        "Ability to learn quickly",
+        "Positive and resilient mindset",
+        "Teamwork",
+        "Leadership and autonomy",
+        "Adaptability",
+        "Empathy and active listening",
+        "Effective communication (multilingual)",
+        "Organization and time management"
+      ]
+    }
+  },
+  "languages": {
+    "title": "Languages",
+    "ES": {
+      "label": "SPANISH",
+      "info": "Native"
+    },
+    "EN": {
+      "label": "ENGLISH",
+      "info": "C1 APTIS - British Council \nB2 FCE - Cambridge Assessment"
+    },
+    "FR": {
+      "label": "FRENCH",
+      "info": "B2 DELF - Institut Français"
+    }
+  },
+  "contact": {
+    "phrase": "Feel free to contact me!",
+    "linkedin": "LinkedIn Profile",
+    "location": "Madrid, Spain"
+  }
+}

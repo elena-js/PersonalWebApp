@@ -1,0 +1,30 @@
+:root {
+  font-family: 'Montserrat', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Color variables */
+  --color-dark-1: 31, 59, 100;   /* #1f3b64 background */
+  --color-dark-2: 46, 74, 110;   /* #2e4a6e more neutral */
+  --color-med-1: 56, 129, 174;   /* #3881ae buttons and navbar */
+  --color-med-2: 73, 163, 211;   /* #49a3d3 more vibrant */
+  --color-light-1: 96, 156, 193; /* #609cc1 hover navbar */
+  --color-light-2: 163, 192, 219;/* #a3c0db pastel */
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: var(--color-dark-1);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 100vh;
+}

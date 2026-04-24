@@ -1,0 +1,36 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.2rem;
+  text-align: center;
+  box-sizing: border-box;
+  height: 100vh;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+}
+
+/* Minimal floating scrollbar */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+body {
+  background: linear-gradient(
+    180deg,
+    rgb(var(--color-dark-1)),
+    rgb(var(--color-dark-2))
+  );
+}
+
+h3 {
+  color: rgba(var(--color-light-2));
+  font-weight: 600;
+}

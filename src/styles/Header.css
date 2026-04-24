@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.header-top {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.8rem 1.2rem;
+  border-radius: 16px;
+  background: rgba(var(--color-dark-2), 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(var(--color-med-1), 0.15);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+.header-top img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+header h4 {
+  margin: 0;
+  text-align: left;
+  font-weight: 500;
+  line-height: 1.2;
+}

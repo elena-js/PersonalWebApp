@@ -1,0 +1,86 @@
+.contact-container {
+  margin-top: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 20px;
+  border: 1px solid rgba(var(--color-dark-2), 0.2);
+  box-shadow:
+    0 10px 25px rgba(0,0,0,0.2);
+  background:
+    linear-gradient(
+      135deg,
+      rgba(var(--color-dark-2), 0.86),
+      rgba(var(--color-dark-1), 0.76)
+    );
+}
+
+.contact-container h1 {
+  margin-bottom: 2.5rem;
+  color: rgba(var(--color-light-1));
+  transition: transform 0.3s;
+} 
+.contact-phrase :hover {
+  transform: translateY(-4px) scale(1.03);
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: rgba(var(--color-light-2));
+  transition: transform 0.3s;
+  padding: 0.5rem 0rem;
+  /* border-radius: 20px;
+  border: 1px solid rgba(var(--color-light-1), 0.2); */
+} 
+
+.contact-item p {
+  margin: 0;
+}
+
+.contact-item a {
+  color: rgba(var(--color-light-2));
+  font-weight: 500;
+}
+
+.contact-item a:hover {
+  color: rgba(var(--color-med-2));;
+}
+
+/* change the color of the icons
+.icon * {
+  fill: red 
+} */
+
+
+
+/* .color-sample {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.color-box {
+  width: 80px;
+  height: 80px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  color: white;
+  font-weight: bold;
+}
+
+.dark-1 { background-color: rgba(var(--color-dark-1)); }
+.dark-2 { background-color: rgba(var(--color-dark-2)); }
+.med-1 { background-color: rgba(var(--color-med-1)); }
+.med-2 { background-color: rgba(var(--color-med-2)); }
+.light-1 { background-color: rgba(var(--color-light-1)); }
+.light-2 { background-color: rgba(var(--color-light-2)); color: black; } */

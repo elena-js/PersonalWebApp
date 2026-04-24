@@ -1,0 +1,301 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "work": "Experiencia Laboral",
+    "education": "Formación",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "home": {
+    "title": "Hola, soy Elena!",
+    "subtitle": "Ingeniera de Telecomunicaciones especializada en\nTelemática y Machine Learning",
+    "text": "En esta app web que he elaborado, podrás explorar mi perfil, aptitudes y experiencia."
+  },
+  "timeline": {
+    "title": "Mi Trayectoria",
+    "subtitle": "Este es el recorrido por mi formación y experiencia profesional.",
+    "bachelor": {
+      "date": "2018-22",
+      "text": "Grado en Ingeniería de Tecnologías y Servicios de Telecomunicación",
+      "start": 0,
+      "end": 2.6,
+      "layer": 0
+    },
+    "internship": {
+      "date": "2022",
+      "text": "Beca de Apoyo al Área de Comunicaciones",
+      "start": 2,
+      "end": 2.6,
+      "layer": 1
+    },
+    "master": {
+      "date": "2022-24",
+      "text": "Máster Universitario en Ingeniería de Telecomunicación",
+      "start": 2.8,
+      "end": 4.8,
+      "layer": 0
+    },
+    "mobility": {
+      "date": "2023-24",
+      "text": "Programa de Movilidad Erasmus en Varsovia",
+      "start": 3.8,
+      "end": 4.8,
+      "layer": 1
+    },
+    "work": {
+      "date": "2025-Presente",
+      "text": "Ingeniera Full Stack en Sistemas de Mando y Control",
+      "start": 5,
+      "end": 7,
+      "layer": 0
+    }
+  },
+  "about": {
+    "profile": {
+      "title": "Perfil",
+      "text1": "Me considero una persona responsable, perseverante, positiva y con ganas de aprender",
+      "text2": "Poseo una buena capacidad de análisis y pensamiento crítico que me permiten resolver problemas complejos y aportar soluciones claras y efectivas",
+      "text3": "Mi experiencia en equipos multidisciplinarios ha fortalecido mis habilidades de comunicación, liderazgo y trabajo en equipo",
+      "text4": "Mi proactividad y resiliencia hacen que me adapte bien a los cambios y dificultades, así como a entornos exigentes"    
+    },
+    "summary": {
+      "title": "Competencias y Experiencia Personal",
+      "text": "Hola soy Elena, Ingeniera de Telecomunicaciones especializada en Telemática y Machine Learning. Soy una persona trabajadora, responsable, perseverante..."
+    },
+    "international": {
+      "title": "Experiencia Internacional",
+      "points": [
+        "Estancia 1 año en Varsovia (Polonia) (2023-24)",
+        "Estancia 1 mes en West Hartford (Connecticut, USA) (2015)"
+      ]
+    },
+    "volunteering": {
+      "title": "Voluntariado",
+      "points": [
+        "6 años de voluntariado como monitora en la Asociación Krecer de Vallecas, Madrid (2016-22)",
+        "1 año de voluntariado en el Hospital Niño Jesús de Madrid (2012-13)"
+      ]
+    },
+    "motivation": {
+      "title": "Motivación",
+      "text": "Mi objetivo es utilizar las nuevas tecnologías para desarrollar soluciones que tengan un impacto positivo en las personas. A nivel técnico, busco construir un perfil amplio, explorando distintas áreas dentro del software y la IA."
+    },
+    "more-btn": {
+      "title": "Ver más",
+      "text": "..."
+    }
+  },
+  "work": {
+    "gmv": {
+      "title": "Ingeniera Full Stack en Sistemas de Mando y Control",
+      "date": "(Feb 2025 - Presente)",
+      "resume": "Desarrollo Frontend y Backend, Bases de Datos, CI/CD, Despliegue de Aplicaciones, Testing.",
+      "points": [
+        "Desarrollo <strong>frontend</strong> con Angular, TypeScript, HTML y CSS, implementando nuevas funcionalidades, corrigiendo errores e integrando sistemas de autenticación mediante Keycloak",
+        "Desarrollo <strong>backend</strong> y <strong>bases de datos</strong> con Java, SQL y PL/SQL, resolviendo incidencias y optimizando procesos",
+        "Configuración y administración de herramientas de calidad de código e integración continua (<strong>CI/CD</strong>), incluyendo SonarQube y Jenkins",
+        "<strong>Despliegue</strong> y <strong>gestión de aplicaciones</strong> en entornos de servidor Oracle y Tomcat, con soporte de <strong>contenedores</strong> (DevContainers, Docker)",
+        "<strong>Gestión de proyectos</strong> Maven, desarrollo de <strong>tests unitarios</strong> y mejoras técnicas, asegurando la calidad, mantenibilidad y rendimiento del software"
+      ]
+    },
+    "satec": {
+      "title": "Beca de Apoyo al Área de Comunicaciones",
+      "date": "(Feb 2022 - Jun 2022)",
+      "resume": "Operación de redes, Administración de dispositivos de red, Resolución de incidencias.",
+      "points": [
+        "Gestión y operación de redes",
+        "Administración y configuración de dispositivos Cisco y Aruba",
+        "Resolución de incidencias y peticiones de servicio"
+      ]
+    }
+  },
+  "university": {
+    "title": "Estudios Universitarios",
+    "master": {
+      "title": "Máster Universitario en Ingeniería de Telecomunicación",
+      "date": "(2022-2024)",
+      "points": [
+        "<strong>2º curso Movilidad</strong> en la Universidad Politécnica de Varsovia (WUT)",
+        "Especialidad de <strong>Telemática</strong> y <strong>Machine Learning</strong>",
+        "<strong>TFM</strong>: \"Detección de Anomalías utilizando Machine Learning en Datos de Smartwatch\""
+      ]
+    },
+    "bachelor": {
+      "title": "Grado en Ingeniería de Tecnologías y Servicios de Telecomunicación",
+      "date": "(2018-2022)",
+      "points": [
+        "Especialidad de <strong>Telemática</strong> (Redes, Cloud y Software para comunicaciones)",
+        "<strong>TFG</strong>: \"Desarrollo de un Sistema de Detección de Ciberacoso en Redes Sociales\""
+      ]
+    },
+    "study-areas": {
+      "title": "Formación en:",
+      "area1": {
+        "title": "Redes y Arquitectura de Comunicaciones",
+        "points": [
+          "Arquitectura de redes: OSI, TCP/IP, protocolos (HTTP, DNS)",
+          "Tecnologías de red: routing, switching, VLANs",
+          "Diseño de redes y dimensionamiento de infraestructuras de comunicación",
+          "Rendimiento y optimización: Quality of Service (QoS)"
+        ]
+      },
+      "area2": {
+        "title": "Sistemas Distribuidos, Cloud y Servicios",
+        "points": [
+          "Diseño de sistemas distribuidos y servicios telemáticos",
+          "Arquitecturas cliente-servidor y sistemas orientados a servicios",
+          "Escalabilidad, concurrencia y alta disponibilidad",
+          "Fundamentos de cloud computing, virtualización y despliegue (contenedores y orquestación)"
+        ]
+      },
+      "area3": {
+        "title": "Ingeniería de Sistemas y Software",
+        "points": [
+          "Sistemas operativos: concurrencia, procesos, memoria",
+          "Desarrollo de software y diseño de arquitectura de aplicaciones",
+          "Integración de sistemas (software + red + infraestructura)"
+        ]
+      },
+      "area4": {
+        "title": "Datos e IoT",
+        "points": [
+          "Machine Learning, Data Mining y reconocimiento de patrones",
+          "Procesamiento de información (imagen y voz)",
+          "Sistemas IoT e integración hardware-software (edge computing)"
+        ]
+      },
+      "area5": {
+        "title": "Fundamentos de Ingeniería y Gestión",
+        "points": [
+          "Comprensión de sistemas de telecomunicación y procesamiento de señal",
+          "Fundamentos de ciberseguridad en redes y sistemas",
+          "Conocimientos de sistemas electrónicos y fundamentos de circuitos",
+          "Gestión de proyectos tecnológicos y trabajo en equipo",
+          "Fundamentos de empresa, modelos de negocio y viabilidad tecnológica"
+        ]
+      }
+    }
+  },
+  "courses": {
+    "title": "Cursos",
+    "huawei1": {
+      "title": "AI Basics: Overview of AI",
+      "date": "2024"
+    },
+    "huawei2": {
+      "title": "5G Basics: What It's All About",
+      "date": "2024"
+    },
+    "huawei3": {
+      "title": "Overview of IoT Technologies",
+      "date": "2024"
+    },
+    "miriadax": {
+      "title": "Desarrollo Frontend con HTML, CSS y JavaScript",
+      "date": "2021"
+    },
+    "coursera": {
+      "title": "Cybersecurity and the Internet of Things",
+      "date": "2021"
+    },
+    "upm1": {
+      "title": "Ciberseguridad",
+      "date": "2021"
+    },
+    "upm2": {
+      "title": "Linux",
+      "date": "2021"
+    }
+  },
+  "skills": {
+    "technical": {
+      "title": "Technical Skills",
+      "groups": [
+        "Software Development",
+        "Web & Application Development",
+        "Machine Learning & Data Analysis",
+        "DevOps & Development Tools",
+        "Scientific Computing & Engineering"
+      ],
+      "group1": [
+        "Java",
+        "Python",
+        "C",
+        "C++",
+        "JavaScript",
+        "TypeScript",
+        "SQL",
+        "Swift"
+      ],
+      "group2": [        
+        "HTML",
+        "CSS",
+        "Angular",
+        "React", 
+        "React Native",
+        "Redux",
+        "Node.js",
+        "Node-RED"
+      ],
+      "group3" : [
+        "Scikit-learn",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "R"
+      ], 
+      "group4": [
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "SonarQube",
+        "Linux",
+        "Git",
+        "SVN"
+      ],
+      "group5": [
+        "Matlab",
+        "Octave",
+        "ArcGIS",
+        "VHDL",
+        "LabVIEW",
+        "Cisco IOS"
+      ]
+    },
+    "soft": {
+      "title": "Soft Skills",
+      "skills": [ 
+        "Capacidad de aprender rápidamente",
+        "Mentalidad positiva y resiliente",
+        "Trabajo en equipo",
+        "Liderazgo y autonomía",
+        "Adaptabilidad",
+        "Empatía y escucha activa",
+        "Comunicación efectiva (multilingüe)",
+        "Organización y gestión del tiempo"
+      ]
+    }
+  },
+  "languages": {
+    "title": "Idiomas",
+    "ES": {
+      "label": "ESPAÑOL",
+      "info": "Nativo"
+    },
+    "EN": {
+      "label": "INGLÉS",
+      "info": "C1 APTIS - British Council \nB2 FCE - Cambridge Assessment"
+    },
+    "FR": {
+      "label": "FRANCÉS",
+      "info": "B2 DELF - Institut Français"
+    }
+  },
+  "contact": {
+    "phrase": "No dudes en escribirme!",
+    "linkedin": "Perfil de LinkedIn",
+    "location": "Madrid, España"
+  }
+}
