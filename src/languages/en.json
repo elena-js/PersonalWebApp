@@ -94,8 +94,8 @@
       "date": "(Feb 2025 - Present)",
       "resume": "Frontend and Backend development, Databases, CI/CD, Application Deployment, Testing.",
       "points": [
-        "<strong>Frontend</strong> development with Angular, TypeScript, HTML, and CSS, implementing new features, fixing bugs, and integrating authentication systems with Keycloak",
-        "<strong>Backend</strong> and <strong>database</strong> development with Java, SQL, and PL/SQL, resolving issues and optimizing processes",
+        "<strong>Frontend</strong> development with Angular, TypeScript, HTML, and CSS, implementing new features, fixing bugs, and integrating authentication systems such as Keycloak",
+        "<strong>Backend</strong> development with Java, REST APIs, and <strong>databases</strong> using SQL, PL/SQL, creating new features, resolving issues and optimizing processes",
         "Configuration and management of code quality and continuous integration tools (<strong>CI/CD</strong>), including SonarQube and Jenkins",
         "<strong>Deployment</strong> and <strong>applications management</strong> on Oracle and Tomcat server environments, with support for development <strong>containers</strong> (DevContainers, Docker)",
         "Maven <strong>project management</strong>, <strong>unit testing</strong>, and technical improvements, ensuring software quality, maintainability, and performance"
@@ -213,6 +213,7 @@
   "skills": {
     "technical": {
       "title": "Technical Skills",
+      "filter": "Filter...",
       "groups": [
         "Software Development",
         "Web & Application Development",
@@ -237,12 +238,14 @@
         "React", 
         "React Native",
         "Redux",
+        "REST APIs",
         "Node.js",
         "Node-RED"
       ],
       "group3" : [
         "Scikit-learn",
         "Pandas",
+        "NLTK (NLP)",
         "NumPy",
         "Matplotlib",
         "R"
@@ -252,6 +255,7 @@
         "Kubernetes",
         "Jenkins",
         "SonarQube",
+        "Azure DevOps",
         "Linux",
         "Git",
         "SVN"
@@ -292,6 +296,110 @@
     "FR": {
       "label": "FRENCH",
       "info": "B2 DELF - Institut Français"
+    }
+  },
+  "projects": {
+    "tfg": {
+      "title": "Development of a Cyberbullying Detection System on Social Media",
+      "section1": {
+        "title": "Description",
+        "points": [
+          "Classification of Instagram comments using Machine Learning",
+          "Development of a complete text processing pipeline (NLP)",
+          "Analysis and application on real-world data"
+        ]
+      },
+      "section2": {
+        "title": "Technologies:",
+        "points": [
+          "Python",
+          "NLTK (NLP)",
+          "Pandas",
+          "Scikit-learn"
+        ]
+      },
+      "section3": {
+        "title": "Project stages",
+        "phase1": "1. Comment extraction using Instaloader",
+        "phase2": "2. Text preprocessing (cleaning, emojis, negations)",
+        "phase3": "3. Dataset construction and labeling",
+        "phase4": "4. Text vectorization",
+        "phase5": "5. Model training and evaluation (F1-score, precision, recall)"
+      },
+      "section4": {
+        "title": "Results",
+        "points": [
+          "Comparison of classification algorithms",
+          "SVM selected as the optimal model",
+          "Effective classification of negative comments"
+        ]
+      },
+      "section5": {
+        "title": "Case Study",
+        "point1": "Analysis of 2 public Instagram profiles",
+        "point2": "Behavior analysis:",
+        "point21": "Evolution of negative comments over time",
+        "point22": "Users interaction (likes, mentions)",
+        "point3": "Identification of patterns related to potential cyberbullying situations"
+      }
+    }, 
+    "tfm": {
+      "title": "Anomaly Detection using Machine Learning on Smartwatch Data",
+      "section1": {
+        "title": "Description",
+        "points": [
+          "Clustering and detection of anomalous patterns in health data",
+          "Development of a complete data preprocessing and analysis system",
+          "Full-stack web application for interactive visualization and analysis"
+        ]
+      },
+      "section2": {
+        "title": "Technologies:",
+        "points": [
+          "Python",
+          "Pandas",
+          "Scikit-learn",
+          "React",
+          "Node.js + Express"
+        ]
+      },
+      "section3": {
+        "title": "Project stages",
+        "points": [
+          "1. Smartwatch health data extraction and preprocessing",
+          "2. Handling missing values and feature engineering",
+          "3. Heart rate, activity and steps analysis",
+          "4. Feature vector generation and clustering",
+          "5. Voting-based anomaly detection system",
+          "6. Interactive visualization of anomalous patterns"
+        ]
+      },
+      "section4": {
+        "title": "Anomaly Detection System",
+        "points": [
+          "Agglomerative Clustering used as core anomaly detection algorithm",
+          "Multiple detection modules based on different health features",
+          "Dynamic Time Warping (DTW) for pattern similarity analysis",
+          "Voting mechanism combining results from multiple modules",
+          "Detection of anomalous days based on behavioral deviations"
+        ]
+      },
+      "section5": {
+        "title": "Results",
+        "points": [
+          "Successful anomaly detection across multiple users",
+          "Robust performance on incomplete real-world smartwatch data",
+          "Identification of long-term anomalous patterns rather than isolated events"
+        ]
+      },
+      "section6": {
+        "title": "Web Application",
+        "point1": "Full-stack client-server architecture:",
+        "point11": "Frontend - React",
+        "point12": "Backend - Node.js and Express",
+        "point2": "Python integration for preprocessing and anomaly detection",
+        "point3": "Interactive visualization for healthcare professionals"
+      }
     }
   },
   "contact": {

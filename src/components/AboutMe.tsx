@@ -44,9 +44,9 @@ function AboutMe() {
         <h4>{t('about.motivation.title')}</h4>
         <p>{t('about.motivation.text')}</p>
       </div>
-      <button className="more-btn" onClick={() => setOpenMoreBtn(true)}>
+      {/* <button className="more-btn" onClick={() => setOpenMoreBtn(true)}>
         {t('about.more-btn.title')}
-      </button>
+      </button> */}
       {openMoreBtn && (
         <div className="modal-overlay" onClick={() => setOpenMoreBtn(false)}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>

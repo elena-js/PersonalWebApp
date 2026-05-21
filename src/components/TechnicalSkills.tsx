@@ -20,7 +20,7 @@ function TechnicalSkills() {
         <h3>{t('skills.technical.title')}</h3>
         <div className="filter-container">
           <IconSearch className="filter-icon" />
-          <input className="filter-input" type="text" placeholder="Filter..."
+          <input className="filter-input" type="text" placeholder={t('skills.technical.filter')}
             onChange={(e) => setFilter(e.target.value.toLowerCase())} />
         </div>
       </div>

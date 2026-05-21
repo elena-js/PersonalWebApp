@@ -7,15 +7,21 @@
   height: 100vh;
   overflow-y: auto;
   scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(var(--color-light-2), 0.4) transparent;
 }
 
-/* Minimal floating scrollbar */
-::-webkit-scrollbar-track {
+#root::-webkit-scrollbar {
+  width: 8px;
+}
+
+#root::-webkit-scrollbar-track {
   background: transparent;
 }
-/* For Firefox */
-* {
-  scrollbar-width: thin;
+
+#root::-webkit-scrollbar-thumb {
+  background: rgba(var(--color-light-2), 0.2);
+  border-radius: 999px;
 }
 
 .uppercase {
