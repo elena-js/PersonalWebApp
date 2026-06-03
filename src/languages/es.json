@@ -392,7 +392,7 @@
         "points": [
           "Detección satisfactoria de anomalías en múltiples usuarios",
           "Funcionamiento robusto sobre datos reales incompletos",
-          "Identificación de patrones anómalos a largo plazo en lugar de eventos aislados"
+          "Identificación de patrones anómalos a largo plazo"
         ]
       },
       "section6": {

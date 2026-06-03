@@ -8,34 +8,27 @@ function Contact() {
   const { t } = useTranslation();
   
   return (
-    <div className="contact-container">
-      <div className="contact-phrase">
-        <h1>{t("contact.phrase")}</h1>
-      </div>
-      <div className="contact-item">
-        <IconEmail className="icon" />
-        <p>elenajuanaserrano@gmail.com</p>
-      </div>
-      <div className="contact-item">
-        <IconLinkedIn className="icon" />
-        <a href="https://www.linkedin.com/in/elena-juana-serrano-933a4b250/" target="_blank" 
-        rel="noopener noreferrer"> {t("contact.linkedin")} </a>
-      </div>
-      <div className="contact-item">
-        <IconLocation className="icon" />
-        <p>{t("contact.location")}</p>
+    <div className="contact">
+      <div className="contact-container">
+        <div className="contact-phrase">
+          <h1>{t("contact.phrase")}</h1>
+        </div>
+        <div className="contact-item">
+          <IconEmail className="icon" />
+          <p>elenajuanaserrano@gmail.com</p>
+        </div>
+        <div className="contact-item">
+          <IconLinkedIn className="icon" />
+          <a href="https://www.linkedin.com/in/elena-juana-serrano-933a4b250/" target="_blank" 
+          rel="noopener noreferrer"> {t("contact.linkedin")} </a>
+        </div>
+        <div className="contact-item">
+          <IconLocation className="icon" />
+          <p>{t("contact.location")}</p>
+        </div>
       </div>
     </div>
   );
 }
 
 export default Contact;
-
-{/* <div className="color-sample">
-        <div className="color-box dark-1">dark-1</div>
-        <div className="color-box dark-2">dark-2</div>
-        <div className="color-box med-1">med-1</div>
-        <div className="color-box med-2">med-2</div>
-        <div className="color-box light-1">light-1</div>
-        <div className="color-box light-2">light-2</div>
-      </div> */}

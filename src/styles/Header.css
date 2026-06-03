@@ -6,7 +6,7 @@ header {
 .header-top {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1.25vw;
   padding: 0.8rem 1.2rem;
   border-radius: 16px;
   background: rgba(var(--color-dark-2), 0.6);
@@ -24,5 +24,6 @@ header h4 {
   margin: 0;
   text-align: left;
   font-weight: 500;
+  font-size: 1.25vw;
   line-height: 1.2;
 }

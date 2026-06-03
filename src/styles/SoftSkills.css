@@ -1,9 +1,11 @@
 .soft-skills {
   margin: 0 0;
+  padding-top: 0.5vh;
 }
 
 .soft-skills h3 {
   margin-bottom: 0;
+  font-size: 1.45vw;
 }
 
 .skills-columns {
@@ -24,10 +26,10 @@
 .skills-columns li {
   display: inline-block;
   padding: 0.4rem 0.6rem;
-  font-size: 0.85rem;
+  font-size: 1.06vw;
   border-bottom: 2px solid rgba(var(--color-med-1)); 
   border-radius: 4px;
-  margin: 0.5rem;
+  margin: 0.63vw;
   cursor: default;
   transition: transform 0.2s, background-color 0.2s;
 }

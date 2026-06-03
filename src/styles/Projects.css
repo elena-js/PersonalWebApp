@@ -1,8 +1,15 @@
 .projects {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 82.59px - 4.6rem);
+}
+.projects-container {
+  display: flex;
   flex-direction: row;
-  gap: 2rem;
-  margin: 0 1rem;
+  gap: 2.5vw;
+  margin: 0 1.25vw;
 }
 .project-container {
   flex: 1;
@@ -10,8 +17,8 @@
 }
 
 .project-title {
-  margin: -0.8rem 5rem 1rem 5rem;
-  font-size: 1rem;
+  margin: -2vh 6.25vw 2.4vh 6.25vw;
+  font-size: 1.25vw;
   font-weight: 350;
 }
 .project-title span {
@@ -20,11 +27,11 @@
   border-radius: 4px;
   padding-bottom: 4px;
   box-decoration-break: clone;
-  line-height: 2.4rem;
+  line-height: 3vw;
 }
 
 .project-intro {
-  font-size: 0.9rem;
+  font-size: 1.13vw;
   padding-left: 1rem;
 }
 .project-intro ul {
@@ -54,27 +61,27 @@
 }
 
 .technologies {
-  margin-bottom: 1.4rem;
-  min-height: 115.18px;
+  margin-bottom: 3.3vh;
+  min-height: 17.3vh;
 }
 .technologies h3 {
-  font-size: 0.9rem;
+  font-size: 1.13vw;
 }
 .technologies-chips-container {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 1.8vh;
 }
 .technologies-chips {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 0.65vw;
 }
 .technologies span {
   padding: 6px 12px;
   border-radius: 20px;
-  font-size: 0.9rem;
+  font-size: 1.1vw;
   background: rgba(var(--color-med-1), 0.9);
   color: white;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
@@ -89,7 +96,7 @@
   align-items: center;
   justify-content: center;
   gap: 5px;
-  font-size: 0.9rem;
+  font-size: 1.13vw;
   margin: 1rem 1rem 0 1rem;
   border: 1px solid rgba(var(--color-med-1), 0.9);
   border-radius: 20px;
@@ -106,9 +113,6 @@
     0 10px 25px rgba(0,0,0,0.2),
     inset 0 1px 0 rgba(var(--color-med-1),0.6);
   background: rgba(var(--color-med-1));
-}
-.project-area-details {
-  font-size: 0.8rem;
 }
 .project-title-expanded {
   background: rgba(var(--color-med-1), 0.75);
@@ -129,11 +133,11 @@
   gap: 0.5rem;
 }
 .pipeline-chips span {
-  max-width: 32rem;
+  max-width: 40vw;
   width: 100%;
   padding: 8px;
   margin: 0;
-  font-size: 0.8rem;
+  font-size: 1vw;
   color: rgba(var(--color-light-2));
   border-radius: 20px;
   border: 1px solid rgba(var(--color-med-1), 0.4);
@@ -144,7 +148,6 @@
   transform: translateY(-4px) scale(1.03);
 }
 
-
 .results-points {
   display: flex;
   flex-direction: column;
@@ -153,11 +156,11 @@
   gap: 0.5rem;
 }
 .results-points span {
-  max-width: 32rem;
+  max-width: 40vw;
   width: 100%;
   padding: 8px;
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 1.13vw;
   color: rgba(var(--color-light-2));
   border-radius: 20px;
   border: 1px solid rgba(var(--color-med-1), 0.4);
@@ -171,11 +174,11 @@
 .points2 {
   margin-top: 0.3rem;
   display: flex;
-  gap: 0.5rem;
+  gap: 0.64vw;
   position: relative;
 }
 .points2 span {
-  width: 15.25rem;
+  width: 19.05vw;
 }
 .connections {
   position: absolute;

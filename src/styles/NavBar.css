@@ -1,7 +1,7 @@
 .nav-container {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1.25vw;
   flex: 1;
 }
 
@@ -16,6 +16,10 @@
   align-items: center;
   justify-content: center;
   transition: all 0.2s ease;
+}
+.home-button .icon {
+  width: 1.8vw;
+  height: 1.8vw;
 }
 .home-button:hover {
   color: rgb(var(--color-light-2));
@@ -37,14 +41,15 @@
 .navbar ul {
   list-style: none;
   display: flex;
-  gap: 1.55rem;
+  justify-content: space-between;
+  width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 0 1vw;
 }
 .navbar a {
   color: white;
   text-decoration: none;
-  font-size: 0.95rem;
+  font-size: 1.15vw;
   padding: 0.4rem 0.8rem;
   border-radius: 12px;
   transition: all 0.2s ease;

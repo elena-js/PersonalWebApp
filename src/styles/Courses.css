@@ -26,7 +26,7 @@
 }
 
 .courses-container {
-  margin: 1.5rem 1rem 0.5rem 1rem;
+  margin: 3.6vh 1.25vw 1.2vh 1.25vw;
   display: flex;
   flex-direction: column;
 }
@@ -34,14 +34,14 @@
 .row-courses {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 2.5vw;
 }
 
 .course-item {
   display: flex;
   align-items: center;
   padding: 10px;
-  margin: 5px 0;
+  margin: 1vh 0;
   gap: 1rem;
   border-radius: 20px;
   border: 1px solid rgba(var(--color-med-1), 0.4);
@@ -55,22 +55,24 @@
 .courses h3 {
   margin: 0px;
   padding: 0.5rem;
+  font-size: 1.5vw;
 }
 .course-item h4 {
   margin: 0;
-  font-size: 0.9rem; 
+  font-size: 1.14vw; 
   font-weight: 500;
   color: rgba(var(--color-light-2), 0.9);
 }
 .course-item h5 {
   margin: 0;
+  font-size: 1.04vw;
   font-weight: 400;
   color: rgba(var(--color-light-2), 0.7);
 }
 
 .course-item img {
-  width: 80px;
-  height: 50px;
+  width: 6.2vw;
+  height: 7.5vh;
   object-fit: contain;
   background-color: white;
   border-radius: 20px;
